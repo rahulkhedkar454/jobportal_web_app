@@ -10,7 +10,7 @@ import applicationRoute from "./routes/application.route.js";
 import path from "path";
 
 dotenv.config({});
-
+connectDB();
 const app = express();
 
 const _dirname = path.resolve();
